@@ -18,6 +18,8 @@ You can see the spendings and earnings month by month  allowing you to see where
 
 # Features
 
+Realtime online database provides 
+
 # In progress features implementations
 
 
