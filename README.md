@@ -13,7 +13,12 @@
 
 # Description
 
-This app ....
+This app provides  an easy and fast way to control your own finances. 
+You can see the spendings and earnings month by month  allowing you to see where your money is going.
+
+# Features
+
+# In progress features implementations
 
 
 # Contributing
