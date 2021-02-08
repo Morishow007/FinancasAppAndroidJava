@@ -1,6 +1,6 @@
 # Personal Finances app
 
-##Version 1.0.0
+## Version 1.0.0
 
 
 ![SS 1](https://i.postimg.cc/htfTYCYm/Screenshot-1612778621.png)
@@ -11,7 +11,7 @@
 ![SS 6](https://i.postimg.cc/hGmxDXcP/Screenshot-1612778659.png)
 ![SS 7](https://i.postimg.cc/Y9wFhtCN/Screenshot-1612778662.png)
 
-#Description
+# Description
 
 This app ....
 
