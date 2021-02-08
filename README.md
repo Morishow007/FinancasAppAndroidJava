@@ -16,7 +16,7 @@
 This app ....
 
 
-## Contributing
+# Contributing
 Despite the fact that this is an students app make for academical purpose 
 pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
