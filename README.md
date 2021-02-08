@@ -11,6 +11,13 @@
 ![SS 6](https://i.postimg.cc/hGmxDXcP/Screenshot-1612778659.png)
 ![SS 7](https://i.postimg.cc/Y9wFhtCN/Screenshot-1612778662.png)
 
+```java
+
+import financesetc
+
+
+```
+
 
 ## Contributing
 Despite the fact that this is an students app make for academical purpose 
