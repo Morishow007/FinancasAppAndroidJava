@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "573027851123",
+    "firebase_url": "https://brunoepaulafinancas-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "brunoepaulafinancas",
+    "storage_bucket": "brunoepaulafinancas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573027851123:android:41fa2f8045df7593274306",
+        "android_client_info": {
+          "package_name": "com.bruno.brunoepaulafinancas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573027851123-bj10k6m5a30ba0erdh1r376c58kp5hdg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bruno.brunoepaulafinancas",
+            "certificate_hash": "a2a4066a8f77eff25e45ec83886e020863298908"
+          }
+        },
+        {
+          "client_id": "573027851123-9v6qrf4kggbpo03qdfqiuodri29o065g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeEKYHo8e-J375WQzA05STJplbxa2DrwY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573027851123-9v6qrf4kggbpo03qdfqiuodri29o065g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

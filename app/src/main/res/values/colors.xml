@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_purple">#330C2F</color>
+    <color name="purple_maximum">#7B287D</color>
+    <color name="violet_light">#7067CF</color>
+    <color name="lavander_blue">#B7C0EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="aero_blue">#CBF3D2</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="receitaBackground">#9AFB44</color>
+    <color name="despesaBackground">#FF3030</color>
+</resources>
