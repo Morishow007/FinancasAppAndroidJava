@@ -24,7 +24,7 @@ Easy to use UI to keep simplest as possible.
 
 # In progress features implementations
 
-- Edit profile /n
+- Edit profile 
 - Custom theme
 - Graphic analysis of month balance
 - Filter by category
