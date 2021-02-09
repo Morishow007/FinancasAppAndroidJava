@@ -23,10 +23,11 @@ Easy to use UI to keep simplest as possible.
 
 
 # In progress features implementations
--Edit profile
--Custom theme
--Graphic analysis of month balance
--Filter by category
+
+- Edit profile /n
+- Custom theme
+- Graphic analysis of month balance
+- Filter by category
 
 # Contributing
 Despite the fact that this is an students app make for academical purpose 
