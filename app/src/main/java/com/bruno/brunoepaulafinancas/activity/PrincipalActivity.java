@@ -43,7 +43,7 @@ import java.util.List;
 public class PrincipalActivity extends AppCompatActivity {
 
     private MaterialCalendarView calendarView;
-    private TextView textoSaudacao, textoSaldo;
+    private TextView textoSaudacao, textoSaldo, textSaldoMensal;
     private double despesaTotal = 0;
     private double receitaTotal = 0;
     private double resumoUsuario = 0;
@@ -73,6 +73,7 @@ public class PrincipalActivity extends AppCompatActivity {
         textoSaudacao = findViewById(R.id.textSaudacao);
         calendarView = findViewById(R.id.calendarView);
         recyclerView = findViewById(R.id.recyclerMovimentos);
+        textSaldoMensal = findViewById(R.id.textSaldoMensal);
 
         configuraCalendarView();
         swipe();
@@ -211,6 +212,9 @@ public class PrincipalActivity extends AppCompatActivity {
         valueEventListenerMovimentacoes = movimentacaoRef.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
+                double receita = 0;
+                double despesa = 0;
+                double total = 0;
 
                 movimentacoes.clear();
                 for(DataSnapshot dados: snapshot.getChildren()){
@@ -218,6 +222,20 @@ public class PrincipalActivity extends AppCompatActivity {
                     movimentacao.setKey(dados.getKey());
                    movimentacoes.add(movimentacao);
                 }
+                for(Movimentacao movimentacao : movimentacoes){
+
+                    if(movimentacao.getTipo().equals("r")){
+
+                        receita += movimentacao.getValor();
+
+                    }else if(movimentacao.getTipo().equals("d")){
+
+                        despesa += movimentacao.getValor();
+
+                    }
+                }
+                total = receita - despesa;
+                textSaldoMensal.setText("$ "+String.format("%.2f", total));
                 adapterMovimentacao.notifyDataSetChanged();
 
             }
