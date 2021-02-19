@@ -17,13 +17,13 @@ This app provides  an easy and fast way to control your own finances.
 You can see the spendings and earnings month by month  allowing you to see where your money is going.
 
 # Features
-Implements Design Pattern MVVM.
 Uses Firebase realtime NoSQL database wich provides  versatility . User can log in any phone and uses his account.
 Easy to use UI to keep simplest as possible.
 
 
 # In progress features implementations
 
+- Migrate to MVVM architecture
 - Edit profile 
 - Custom theme
 - Graphic analysis of month balance
